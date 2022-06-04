@@ -3,6 +3,8 @@ body {
     font-family: 'Rubik';
     font-size: 16px;
     color: hsl(211, 10%, 45%);
+    width: 1311px;
+    margin: 40px auto;
 }
 .comment {
     background-color: hsl(0, 0%, 100%);
@@ -12,9 +14,10 @@ body {
 }
 .reply {
     background-color: hsl(0, 0%, 100%);
-    margin: 36px 313px 20px 398px;
+    margin: 39px 310px 41px 417px;
     padding: 20px;
     border-radius: 10px;
+    max-width: 561px;
 }
 .at_person {
     color: hsl(238, 40%, 52%);
@@ -23,7 +26,22 @@ body {
     display: inline-block;
 }
 
-img {
+.reply_btn {
+    border: 0px;
+    background-color: inherit;
+    margin: 8px 1px;
+    float: right;
+    color: hsl(238, 40%, 52%);
+}
+.reply_btn:hover {
+   opacity: .5;
+}
+
+.reply_img {
+    margin: -2px 7px;
+}
+
+.comment_avatar {
     width: 35px;
     float: left;
 }
