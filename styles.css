@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(228, 33%, 97%);
+    background-color: hsl(223, 19%, 93%);
     font-family: 'Rubik';
     font-size: 16px;
     color: hsl(211, 10%, 45%);
@@ -65,4 +65,30 @@ body {
     float: right;
     padding-left: 20px;
     padding-top: 10px;   
+}
+
+.vote_container {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.plus_btn {
+    margin-top: 3px;
+    margin-bottom: 7px;
+    border: 0px;
+    background-color: hsl(223, 19%, 93%);
+    height: 22px;
+}
+.minus_btn {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border: 0px;
+    background-color: hsl(223, 19%, 93%);
+    height: 18px;
+}
+.counter {
+    margin-top: -8px;
+    margin-bottom: -11px;
+    color: hsl(238, 40%, 52%);
+    text-align: center;
 }
